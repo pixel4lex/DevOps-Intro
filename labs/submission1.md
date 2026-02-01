@@ -1,9 +1,8 @@
-# SSH Commit Signature Verification
+# Task1. SSH Commit Signature Verification
 
 ## Benefits of Signing Commits
 Commit signing provides cryptographic verification that a commit was created by the claimed author and has not been altered. It improves authenticity, integrity, and trust in collaborative repositories. Signed commits help prevent impersonation and strengthen overall repository security.
 
----
 
 ## Evidence of SSH Key Setup and Signed Commit
 
@@ -34,14 +33,36 @@ Example output:
 Good "git" signature for your_email@example.com with ED25519 key
 ```
 
----
 
 ## Why is commit signing important in DevOps workflows?
 Commit signing ensures that only verified and trusted contributors can push code into the repository and CI/CD pipeline. It prevents malicious or unauthorized changes. This helps maintain secure, stable, and trustworthy deployments in DevOps environments.
 
----
 
 ## GitHub Verification
 ![](images/image.png)
 ![](images/image_1.png)
 ![](images/image_2.png)
+
+---
+
+# Task2. PR Template & Checklist
+
+## PR template auto-filling the description
+I opened a PR from my feature/lab1 branch to my main branch. Desription fills automatically from .github/pull_request_template.md.
+![](images/image_3.png)
+
+## Evidence of template existence in main branch
+We can see that .github/ directory opened from main branch in my fork and there is a pull_request_template.md file with desctiption of each PR.
+![](images/image_4.png)
+
+## How PR Templates Improve Collaboration
+
+Pull Request templates standardize how changes are proposed and reviewed, making collaboration clearer and more efficient.
+
+Benefits:
+- Provide consistent structure for descriptions and context
+- Ensure required information is included
+- Improve code review speed and quality
+- Help teams follow workflow
+
+Overall, PR templates streamline communication, reduce misunderstandings, and make reviews faster and more reliable.
