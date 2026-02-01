@@ -42,3 +42,6 @@ Commit signing ensures that only verified and trusted contributors can push code
 ---
 
 ## GitHub Verification
+![](images/image.png)
+![](images/image_1.png)
+![](images/image_2.png)
